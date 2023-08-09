@@ -1,0 +1,12 @@
+{
+  "extends": "@tsconfig/node18/tsconfig.json",
+  "include": [
+    "vite.config.*",
+  ],
+  "compilerOptions": {
+    "composite": true,
+    "module": "ES2020",
+    "moduleResolution": "Node",
+    "types": ["node"]
+  }
+}
